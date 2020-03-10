@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+body,html{
+  box-sizing: border-box;
+  font-family: 'EB Garamond', serif;
+  margin:0px;
+}
+
+*{
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+}
+
+.maincontainer{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.linkballet, .linkjazz, .linktap, .linkhiphop, .linklyrical{
+  font-size:30px;
+  color:white;
+  text-decoration:none;
+}
+
+.linkballet:hover{
+  color:#B35F62;
+}
+
+.linkjazz:hover{
+  color:#FF757A;
+}
+
+.linktap:hover{
+  color:#FFFD8F;
+}
+
+.linklyrical:hover{
+  color:#A8DFFF;
+}
+
+.linkhiphop:hover{
+  color:#B3B152;
+}
+
+.navbar:hover{
+  display:flex;
+  justify-content: space-between;
+  background-color:black;
+}
+
+
+.ballet{
+}
