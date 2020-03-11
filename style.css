@@ -29,6 +29,9 @@ body,html{
 .header, .header2{
   text-align:center;
   background-image:url('https://bbo.dance/images/about/facilities/bbodance_scan1.jpg');
+  background-position: center;
+  background-color: black;
+  opacity:0.5;
 }
 
 .headerstyle2{
