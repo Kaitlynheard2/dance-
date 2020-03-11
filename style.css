@@ -19,12 +19,12 @@ body,html{
 
 .header {
   font-size: 100px;
-  font-weight: 600;
+  font-weight: 700;
   background-position:center;
 }
 
 .header2{
-  font-weight:600;
+  font-weight:700;
 }
 .header, .header2{
   text-align:center;
@@ -36,14 +36,14 @@ body,html{
 
 .headerstyle2{
   text-decoration:none;
-  color:black;
+  color:White;
   font-size: 70px;
 }
 
 .headerstyle{
   text-decoration:none;
   font-size:100px;
-  color:black;
+  color:white;
 }
 
 .navbar {
@@ -61,23 +61,23 @@ body,html{
 }
 
 .linkballet:hover{
-  color:#B35F62;
+  color:#C5FF3D;
 }
 
 .linkjazz:hover{
-  color:#FF757A;
+  color:#FF4626;
 }
 
 .linktap:hover{
-  color:#FFFD8F;
+  color:#75A6FF;
 }
 
 .linklyrical:hover{
-  color:#A8DFFF;
+  color:#174EB3;
 }
 
 .linkhiphop:hover{
-  color:#B3B152;
+  color:#93B349;
 }
 
 .footer{
