@@ -5,11 +5,11 @@ body,html{
   margin: 0px;
 }
 
-/* *{
+*{
   border-style: solid;
   border-color: black;
   border-width: medium;
-} */
+}
 
 .maincontainer{
   display:flex;
@@ -119,14 +119,39 @@ h1,p{
 }
 
 .oldballet, .ballerinafairy, .swanlake{
-  filter:grayscale(1);
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
+.oldballet, .ballerinafairy{
+  height:auto;
+  width:auto;
+  max-width:300px;
+  max-height:400px;
+  filter:grayscale(1);
+}
 
+.ballet{
+  background-color:#75A6FF;
+}
+
+.tap{
+  background-color: #C5FF3D;
+}
+
+.jazz{
+  background-color: #FF4626;
+}
+
+.lyrical{
+  background-color: #174EB3;
+}
+
+.hiphop{
+  background-color: #93B349;
+}
 .footer{
   background-color:black;
 }
