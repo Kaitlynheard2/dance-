@@ -5,11 +5,11 @@ body,html{
   margin: 0px;
 }
 
-*{
+/* *{
   border-style: solid;
   border-color: black;
   border-width: medium;
-}
+} */
 
 .maincontainer{
   display:flex;
@@ -104,18 +104,26 @@ p{
   text-indent:50px;
 }
 
-.beginning{
-  display: flex;
-  justify-content:space-around;
-  justify-content: space-between;
+h1{
+  text-align:center;
+}
+
+h1,p{
+  color:white;
+}
+
+.beginning, .middle, .end{
   margin-left: 100px;
   margin-right:100px
   /* flex-wrap:wrap; */
 }
 
-.oldballet, .ballerinafairy{
+.oldballet, .ballerinafairy, .swanlake{
   filter:grayscale(1);
-  img
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
