@@ -61,7 +61,7 @@ body,html{
 }
 
 .linkballet:hover{
-  color:#C5FF3D;
+  color:#75A6FF;
 }
 
 .linkjazz:hover{
@@ -69,7 +69,7 @@ body,html{
 }
 
 .linktap:hover{
-  color:#75A6FF;
+  color:#C5FF3D;
 }
 
 .linklyrical:hover{
@@ -78,6 +78,19 @@ body,html{
 
 .linkhiphop:hover{
   color:#93B349;
+}
+
+p{
+  font-size:20px;
+  text-indent:50px;
+}
+
+.beginning{
+  display: flex;
+  justify-content:space-around;
+  justify-content: space-between;
+  /* flex-wrap:wrap; */
+
 }
 
 .footer{
