@@ -104,6 +104,12 @@ p{
   text-indent:50px;
 }
 
+#p1{
+  font-size:30px;
+  text-indent:50px;
+  color:white;
+}
+
 h1{
   text-align:center;
 }
