@@ -5,17 +5,15 @@ body,html{
   margin: 0px;
 }
 
-*{
+/* *{
   border-style: solid;
   border-color: black;
   border-width: medium;
-}
+} */
 
 .maincontainer{
-  display:flex;
-  justify-content:center;
-  flex-direction: column;
-  background-color:
+  
+  background-image:url('https://bbo.dance/images/about/facilities/bbodance_scan1.jpg');
 }
 .maincontainer1{
   background-color: #75A6FF;
@@ -132,7 +130,10 @@ h1,p{
   margin-right: auto;
   width: 50%;
 }
-
+.click{
+  color: black;
+  text-decoration: none;
+}
 .oldballet{
   height:auto;
   width:auto;
@@ -143,21 +144,26 @@ h1,p{
 
 .ballet{
   background-color:#75A6FF;
+  position:relative;
 }
 
 .tap{
+  position:relative;
   background-color: #C5FF3D;
 }
 
 .jazz{
+  position:relative;
   background-color: #FF4626;
 }
 
 .lyrical{
+  position:relative;
   background-color: #174EB3;
 }
 
 .hiphop{
+  position:relative;
   background-color: #93B349;
 }
 .footer{
