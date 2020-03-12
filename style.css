@@ -10,9 +10,12 @@ body,html{
   border-color: black;
   border-width: medium;
 } */
-
+.padding{
+  margin-top:0px;
+  margin-bottom:0px;
+}
 .maincontainer{
-  
+
   background-image:url('https://bbo.dance/images/about/facilities/bbodance_scan1.jpg');
 }
 .maincontainer1{
@@ -130,9 +133,15 @@ h1,p{
   margin-right: auto;
   width: 50%;
 }
+
+.swanlake1{
+  height:auto;
+  width:auto;
+  max-width:300px;
+  max-height:400px;
+}
 .click{
   color: black;
-  text-decoration: none;
 }
 .oldballet{
   height:auto;
@@ -144,11 +153,11 @@ h1,p{
 
 .ballet{
   background-color:#75A6FF;
-  position:relative;
+
 }
 
 .tap{
-  position:relative;
+
   background-color: #C5FF3D;
 }
 
