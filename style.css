@@ -1,54 +1,58 @@
+/* imported front */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+
+/* set box sizing and declared font for entire website. Also set the margins */
 body,html{
   box-sizing: border-box;
   font-family: 'EB Garamond', serif;
   margin: 0px;
 }
 
-/* *{
+/* *{ took out boarders
   border-style: solid;
   border-color: black;
   border-width: medium;
 } */
-.padding{
-  padding-top: 0px;
-  margin-top:0px;
-  padding-bottom:0px;
-  margin-bottom:0px;
-}
-.maincontainer{
 
-  background-image:url('https://bbo.dance/images/about/facilities/bbodance_scan1.jpg');
-}
+
+/* class for ballet main container. sets backgrounnd */
 .maincontainer1{
   background-color: #75A6FF;
 }
 
+/* class for tap main container. sets background*/
 .maincontainer2{
   background-color: #C5FF3D;
 }
 
+/* class for jazz main container. sets background */
 .maincontainer3{
   background-color: #FF4626;
 }
 
+/* class for lyrical container. sets background color */
 .maincontainer4{
   background-color: #174EB3;
 }
 
+/* class for hip hop main container. sets background color */
 .maincontainer5{
   background-color: #93B349;
 }
 
+/* sets the position of the header for the main page */
 .header {
   font-size: 100px;
   font-weight: 700;
   background-position:center;
 }
 
+/* sets the font size of the header for the secondary pages */
 .header2{
   font-weight:700;
 }
+
+/* puts the photo for the headers in grayscale and aligns the words with the background */
 .header, .header2{
   text-align:center;
   background-image:url('https://bbo.dance/images/about/facilities/bbodance_scan1.jpg');
@@ -56,32 +60,39 @@ body,html{
   filter:grayscale(1);
 }
 
+/* sets the style of the header for the the secondary pages */
 .headerstyle2{
   text-decoration:none;
   color:White;
   font-size: 70px;
 }
 
+/* sets the style of the header on the landing page */
 .headerstyle{
   text-decoration:none;
   font-size:100px;
   color:white;
 }
 
+/* sets the style of the navigation bar */
 .navbar {
   display:flex;
   justify-content:space-between;
   background-color:black;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
+/* sets the color of the links to each secondary page in the navigation bar */
 .linkballet, .linkjazz, .linktap, .linkhiphop, .linklyrical{
   font-size:24px;
   color:white;
   text-decoration:none;
 }
 
+/* sets different colors for the links in the navigation bar */
 .linkballet:hover{
   color:#75A6FF;
 }
@@ -102,33 +113,40 @@ body,html{
   color:#93B349;
 }
 
+/* sets the color and font size of the paragraphs */
 p, .ptap{
   font-size:30px;
   text-indent:50px;
 }
 
+/* sets a different color for the pages that have more harsh colors */
 .ptap{
   color:black;
 }
 
+/* aligns the headers of each section on the secondary pages */
 h1{
   text-align:center;
 }
 
+/* changes the color of the headers for pages with more harshly colored backgrounds */
 .h1tap{
   color:black;
 }
 
+/* unified white for the pages that have the same white for the header and the text */
 h1,p{
   color:white;
 }
 
+/* sets the text in the middle on the secondary pages */
 .beginning, .middle, .end{
   margin-left: 100px;
   margin-right:100px
   /* flex-wrap:wrap; */
 }
 
+/* sets the size of the first two on the secondary pages */
 .oldballet, .swanlake{
   display: block;
   margin-left: auto;
@@ -136,15 +154,20 @@ h1,p{
   width: 50%;
 }
 
+/* sets different sizes for the last photo on the secondary pages */
 .swanlake1{
   height:auto;
   width:auto;
   max-width:300px;
   max-height:400px;
 }
+
+
 .click{
   color: black;
 }
+
+
 .oldballet{
   height:auto;
   width:auto;
