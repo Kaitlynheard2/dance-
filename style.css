@@ -162,12 +162,12 @@ h1,p{
   max-height:400px;
 }
 
-
+/* sets the color of the link for the READ ME on the landing pages */
 .click{
   color: black;
 }
 
-
+/* sets different size for the pictures at the top of the secondary pages */
 .oldballet{
   height:auto;
   width:auto;
@@ -176,34 +176,41 @@ h1,p{
   filter:grayscale(1);
 }
 
+/* sets the color of the ballet section on the landing page */
 .ballet{
   background-color:#75A6FF;
 
 }
 
+/* sets the color of the tap section on the landing page */
 .tap{
-
   background-color: #C5FF3D;
 }
 
+/* sets the color of the jazz section on the landing page */
 .jazz{
   position:relative;
   background-color: #FF4626;
 }
 
+/* sets the color of the lyrical section on the landing page */
 .lyrical{
   position:relative;
   background-color: #174EB3;
 }
 
+/* sets the color of the hip hop section on the landing page */
 .hiphop{
   position:relative;
   background-color: #93B349;
 }
+
+/* sets the color of the footer section on each page */
 .footer{
   background-color:black;
 }
 
+style for the copyright in the footer
 .copyright{
   font-size:15px;
   color:white;
@@ -212,6 +219,8 @@ h1,p{
 
 .ptext{
   font-size: 4vmin;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .ptext2{
