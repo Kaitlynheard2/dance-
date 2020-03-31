@@ -8,12 +8,10 @@ body,html{
   margin: 0px;
 }
 
-/* *{ took out boarders
-  border-style: solid;
-  border-color: black;
-  border-width: medium;
-} */
-
+.maincontainer{
+  display:grid;
+  grid-template-columns:(repeat 8, 1fr);
+}
 
 /* class for ballet main container. sets backgrounnd */
 .maincontainer1{
@@ -176,10 +174,35 @@ h1,p{
   filter:grayscale(1);
 }
 
+.ballet,.tap,.jazz,.lyrical,.hiphop{
+  display:grid;
+  grid-template-columns: (repeat 2 ,1fr);
+  grid-column-gap:2vmin;
+  padding-top:2vmin;
+  padding-bottom: 2vmin;
+}
+
+.item1x2{
+  grid-column-end:span 2;
+}
+
+
 /* sets the color of the ballet section on the landing page */
 .ballet{
   background-color:#75A6FF;
 
+}
+
+/* makes images on oposite sides of the page */
+.balletimg, .jazzimg, .hiphopimg{
+  float:right;
+  padding:3vmin;
+}
+
+/* " */
+.tapimg,.lyricalimg{
+  float:left;
+  padding:3vmin;
 }
 
 /* sets the color of the tap section on the landing page */
@@ -189,19 +212,16 @@ h1,p{
 
 /* sets the color of the jazz section on the landing page */
 .jazz{
-  position:relative;
   background-color: #FF4626;
 }
 
 /* sets the color of the lyrical section on the landing page */
 .lyrical{
-  position:relative;
   background-color: #174EB3;
 }
 
 /* sets the color of the hip hop section on the landing page */
 .hiphop{
-  position:relative;
   background-color: #93B349;
 }
 
@@ -219,8 +239,7 @@ h1,p{
 
 .ptext{
   font-size: 4vmin;
-  margin-left: 30px;
-  margin-right: 30px;
+
 }
 
 .ptext2{
@@ -231,4 +250,41 @@ h1,p{
 .ptext3{
   font-size:5vmin;
   font-weight:600;
+}
+
+.paddingleft{
+  padding-left: 3vmin;
+}
+
+.paddingright{
+  padding-right: 3vmin;
+}
+
+/* when page shrinks, these are the new settings: everything goes to center */
+@media only screen and (max-width:1084px){
+
+  .center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+  }
+
+  .ptext, .ptext2{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+/* navbar turns into column navigation bar */
+  .navbar {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .balletimg, .tapimg,.jazzimg, .lyricalimg, .hiphopimg{
+    float:none;
+    padding:none;
+  }
 }
